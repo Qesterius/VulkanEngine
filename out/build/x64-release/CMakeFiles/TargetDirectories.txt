@@ -1,0 +1,3 @@
+C:/Users/Luki/source/repos/VulkanEngine/out/build/x64-release/CMakeFiles/main.dir
+C:/Users/Luki/source/repos/VulkanEngine/out/build/x64-release/CMakeFiles/edit_cache.dir
+C:/Users/Luki/source/repos/VulkanEngine/out/build/x64-release/CMakeFiles/rebuild_cache.dir
