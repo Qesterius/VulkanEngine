@@ -1,10 +1,13 @@
 ﻿# CMakeList.txt : CMake project for cmake, include source and define
 # project specific logic here.
 #
+set(CMAKE_C_COMPILER "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe")
+set(CMAKE_CXX_COMPILER "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe")
+
+
 cmake_minimum_required (VERSION 3.8)
 set(Recipe_Name "main")
 project (${Recipe_Name})
-   
 
 
 
@@ -43,7 +46,7 @@ if(AUTO_LOCATE_VULKAN)
 	endif()
 else()
 	message(STATUS "Attempting to locate Vulkan SDK using manual path......")
-	set(VULKAN_SDK "C:/VulkanSDK")
+	set(VULKAN_SDK "E:/VulkanSDK")
 	set(VULKAN_VERSION "1.3.231.1")
 	set(VULKAN_PATH "${VULKAN_SDK}/${VULKAN_VERSION}")
 	message(STATUS "Using manual specified path: ${VULKAN_PATH}")
